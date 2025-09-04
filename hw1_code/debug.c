@@ -2,7 +2,10 @@
 
 int len(char* s) {
   int l = 0;
-  while (*s) s++;
+  while (*s) {
+    l++;
+    s++;
+  }
   return l;
 }
 
