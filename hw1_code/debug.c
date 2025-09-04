@@ -12,9 +12,10 @@ int rot13(int l) {
   return l;
 }
 
-char* msg = "Jryy Qbar!!!\n";
+
 
 int main() {
+  char* msg = "Jryy Qbar!!!\n";
   int i = 0;
   printf("The secret message is: ");
   while (i < len(msg)) printf("%c", rot13(msg[i++]));
